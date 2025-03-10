@@ -1,0 +1,151 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"settings": {
+		"layout": {
+			"contentSize": "645px",
+			"wideSize": "1300px"
+		},
+		"spacing": {
+			"blockGap": true
+		},
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#3498D8"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#FA970A"
+				},
+				{
+					"name": "Background",
+					"slug": "background",
+					"color": "#E5ECF1"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|background"
+		},
+		"spacing": {
+			"padding": {
+				"left": "50px",
+				"right": "50px"
+			}
+		},
+		"blocks": {
+			"core/navigation": {
+				"spacing": {
+					"margin": {
+						"top": "0px",
+						"bottom": "0px"
+					},
+					"padding": {
+						"left": "20px",
+						"right": "20px",
+						"bottom": "10px"
+					}
+				},
+				"color": {
+					"background": "var:preset|color|primary"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"fontFamily": "Roboto",
+							"fontSize": "16px"
+						}
+					},
+					"heading": {
+						"typography": {
+							"fontFamily": "Roboto",
+							"fontSize": "20px",
+							"fontWeight": "bold"
+						}
+					},
+					"button": {
+						"color": {
+							"background": "black",
+							"text": "white"
+						}
+					}
+				}
+			},
+			"core/search": {
+				"typography": {
+					"fontFamily": "Roboto",
+					"fontSize": "16px"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "black",
+							"text": "white"
+						}
+					}
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"padding": {
+						"top": "20px",
+						"bottom": "20px"
+					}
+				}
+			},
+			"core/image": {
+				"spacing": {
+					"margin": {
+						"top": "10px",
+						"bottom": "10px"
+					}
+				}
+			}
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "Roboto",
+					"fontWeight": "bold"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "32px"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "24px"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "16px"
+				},
+				"spacing": {
+					"margin": {
+						"top": "70px"
+					}
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "Roboto",
+					"fontSize": "16px"
+				},
+				"color": {
+					"background": "var:preset|color|secondary",
+					"text": "#fff"
+				}
+			}
+		}
+	}
+}
